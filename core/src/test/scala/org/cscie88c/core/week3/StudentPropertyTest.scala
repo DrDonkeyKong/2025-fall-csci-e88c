@@ -9,7 +9,7 @@ class StudentPropertyTest
     with Matchers
     with ScalaCheckPropertyChecks {
 
-  //val studentGen: Gen[Student] = ???
+  // val studentGen: Gen[Student] = ???
 
   // complete the student list generator below if attempting bonus problem
   // val studentListGen: Gen[List[Student]] = ???

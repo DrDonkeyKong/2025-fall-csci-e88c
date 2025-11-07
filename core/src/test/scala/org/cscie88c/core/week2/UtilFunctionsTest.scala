@@ -4,7 +4,7 @@ import org.cscie88c.core.testutils.{StandardTest}
 
 class UtilFunctionsTest extends StandardTest {
 
-  //"UtilFunctions" when {
+  // "UtilFunctions" when {
   //  "maximum" should {
   //    "return maximum of two ints when first integer is greater" in {
   //      UtilFunctions.maximum(2, 1) should be(2)
@@ -14,5 +14,5 @@ class UtilFunctionsTest extends StandardTest {
 
   //  // add unit tests for median below
 
-  //}
+  // }
 }

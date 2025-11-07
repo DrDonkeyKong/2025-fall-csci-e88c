@@ -10,7 +10,7 @@ class UtilFunctionsPropertyTest
     with Matchers
     with ScalaCheckPropertyChecks {
 
-  //val triplesGen: Gen[(Int, Int, Int)] = ???
+  // val triplesGen: Gen[(Int, Int, Int)] = ???
 
   ignore("mult2 result test") {
     forAll { (x: Int, y: Int) =>
