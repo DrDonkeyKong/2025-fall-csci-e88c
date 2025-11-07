@@ -16,5 +16,5 @@ class StudentPropertyTest
 
   test("description contains name and email") {
     // write your property test below
-  }
+  }.pending
 }
