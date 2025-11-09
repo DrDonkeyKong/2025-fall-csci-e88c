@@ -21,3 +21,8 @@ assembly / assemblyMergeStrategy := {
 assembly / assemblyShadeRules := Seq(
   ShadeRule.rename("shapeless.**" -> "shadeshapeless.@1").inAll
 )
+
+Test / classLoaderLayeringStrategy := ClassLoaderLayeringStrategy.Flat
+
+Test / fork := true
+Test / javaOptions ++= Seq("--add-opens=java.base/sun.nio.ch=ALL-UNNAMED")

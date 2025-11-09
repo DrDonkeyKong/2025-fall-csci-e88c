@@ -61,11 +61,13 @@ object DataTransforms {
         tripData("PULocationID") === pickupZoneDF("LocationID"),
         "left_outer"
       )
+      .drop(pickupZoneDF("LocationID"))
       .join(
         dropoffZoneDF,
         tripData("DOLocationID") === dropoffZoneDF("LocationID"),
         "left_outer"
       )
+      .drop(dropoffZoneDF("LocationID"))
   }
 
   def filterByWeek(
